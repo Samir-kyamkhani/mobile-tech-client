@@ -18,7 +18,7 @@ import LandingPageLayout from "./layouts/LandingPageLayout.jsx";
 import HomePage from "./landingPages/pages/HomePage.jsx";
 import ShopPage from "./landingPages/pages/ShopPage.jsx";
 import CheckoutPage from "./landingPages/pages/CheckoutPage.jsx";
-import SupportPage from "./landingPages/pages/sUPPORTpAGE.JSX";
+import SupportPage from "./landingPages/pages/SupportPage.jsx";
 import LoginPage from "./landingPages/pages/auth/LoginPage.jsx";
 import UserProfilePage from "./landingPages/pages/UserProfilePage.jsx";
 import { Provider } from "react-redux";
