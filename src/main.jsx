@@ -15,18 +15,18 @@ import ProductsPage from "./dashboard/pages/ProductsPage.jsx";
 import OrdersPage from "./dashboard/pages/OrdersPage.jsx";
 import CategoriesPage from "./dashboard/pages/CategoriesPage.jsx";
 import LandingPageLayout from "./layouts/LandingPageLayout.jsx";
-import HomePage from "./landing pages/pages/HomePage.jsx";
-import ShopPage from "./landing pages/pages/ShopPage.jsx";
-import CheckoutPage from "./landing pages/pages/CheckoutPage.jsx";
-import SupportPage from "./landing pages/pages/sUPPORTpAGE.JSX";
-import LoginPage from "./landing pages/pages/auth/LoginPage.jsx";
-import UserProfilePage from "./landing pages/pages/UserProfilePage.jsx";
+import HomePage from "./landingPages/pages/HomePage.jsx";
+import ShopPage from "./landingPages/pages/ShopPage.jsx";
+import CheckoutPage from "./landingPages/pages/CheckoutPage.jsx";
+import SupportPage from "./landingPages/pages/sUPPORTpAGE.JSX";
+import LoginPage from "./landingPages/pages/auth/LoginPage.jsx";
+import UserProfilePage from "./landingPages/pages/UserProfilePage.jsx";
 import { Provider } from "react-redux";
 import { store } from "./redux/store.js";
 import ProtectedRoute from "./layouts/ProtectedRoute.jsx";
 import ResponsiveToastContainer from "./layouts/ResponsiveToastContainer.jsx";
-import ProductDetailsPage from "./landing pages/pages/ProductDetailsPage.jsx";
-import NotFoundPage from "./landing pages/pages/NotFoundPage.jsx";
+import ProductDetailsPage from "./landingPages/pages/ProductDetailsPage.jsx";
+import NotFoundPage from "./landingPages/pages/NotFoundPage.jsx";
 import LedgerPage from "./dashboard/pages/LedgerPage.jsx";
 
 const router = createBrowserRouter(
